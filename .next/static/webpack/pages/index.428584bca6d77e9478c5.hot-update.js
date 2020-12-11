@@ -11,13 +11,10 @@ webpackHotUpdate_N_E("pages/index",{
 __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
 /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 
-
-var _jsxFileName = "/home/matheusassed/development/teste-next/pages/index.js",
-    _s = $RefreshSig$();
-
+var _jsxFileName = "/home/matheusassed/development/teste-next/pages/index.js";
 
 
 function Home() {
@@ -28,7 +25,16 @@ function Home() {
       fileName: _jsxFileName,
       lineNumber: 6,
       columnNumber: 7
-    }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(Contador, {}, void 0, false, {
+    }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/sobre",
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("a", {
+        children: "Acessar a p\xE1gina Sobre"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 8,
+        columnNumber: 9
+      }, this)
+    }, void 0, false, {
       fileName: _jsxFileName,
       lineNumber: 7,
       columnNumber: 7
@@ -41,49 +47,11 @@ function Home() {
 }
 
 _c = Home;
-
-function Contador() {
-  _s();
-
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(1),
-      contador = _useState[0],
-      setContador = _useState[1];
-
-  function adicionarContador() {
-    setContador(contador + 1);
-  }
-
-  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("div", {
-    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("div", {
-      children: contador
-    }, void 0, false, {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 7
-    }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
-      onClick: adicionarContador,
-      children: "Adicionar"
-    }, void 0, false, {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 7
-    }, this)]
-  }, void 0, true, {
-    fileName: _jsxFileName,
-    lineNumber: 20,
-    columnNumber: 5
-  }, this);
-}
-
-_s(Contador, "5QqM+ZpMrkLzWba3LyD+xgifwgA=");
-
-_c2 = Contador;
 /* harmony default export */ __webpack_exports__["default"] = (Home);
 
-var _c, _c2;
+var _c;
 
 $RefreshReg$(_c, "Home");
-$RefreshReg$(_c2, "Contador");
 
 ;
     var _a, _b;
@@ -145,4 +113,4 @@ $RefreshReg$(_c2, "Contador");
 /***/ })
 
 })
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9fTl9FLy4vcGFnZXMvaW5kZXguanMiXSwibmFtZXMiOlsiSG9tZSIsIkNvbnRhZG9yIiwidXNlU3RhdGUiLCJjb250YWRvciIsInNldENvbnRhZG9yIiwiYWRpY2lvbmFyQ29udGFkb3IiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUE7O0FBRUEsU0FBU0EsSUFBVCxHQUFlO0FBQ2Isc0JBQ0U7QUFBQSw0QkFDRTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxZQURGLGVBRUUscUVBQUMsUUFBRDtBQUFBO0FBQUE7QUFBQTtBQUFBLFlBRkY7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLFVBREY7QUFNRDs7S0FQUUEsSTs7QUFTVCxTQUFTQyxRQUFULEdBQW1CO0FBQUE7O0FBQUEsa0JBQ2VDLHNEQUFRLENBQUMsQ0FBRCxDQUR2QjtBQUFBLE1BQ1ZDLFFBRFU7QUFBQSxNQUNBQyxXQURBOztBQUdqQixXQUFTQyxpQkFBVCxHQUE0QjtBQUMxQkQsZUFBVyxDQUFDRCxRQUFRLEdBQUcsQ0FBWixDQUFYO0FBQ0Q7O0FBRUQsc0JBQ0U7QUFBQSw0QkFDRTtBQUFBLGdCQUFPQTtBQUFQO0FBQUE7QUFBQTtBQUFBO0FBQUEsWUFERixlQUVFO0FBQVEsYUFBTyxFQUFFRSxpQkFBakI7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsWUFGRjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsVUFERjtBQU1EOztHQWJRSixROztNQUFBQSxRO0FBZU1ELG1FQUFmIiwiZmlsZSI6InN0YXRpYy93ZWJwYWNrL3BhZ2VzL2luZGV4Ljc4NzVmMjc3ZWEwN2JjZjQ3NjQyLmhvdC11cGRhdGUuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyB1c2VTdGF0ZSB9IGZyb20gJ3JlYWN0JztcblxuZnVuY3Rpb24gSG9tZSgpe1xuICByZXR1cm4gKFxuICAgIDxkaXY+XG4gICAgICA8aDE+SG9tZTwvaDE+XG4gICAgICA8Q29udGFkb3IgLz5cbiAgICA8L2Rpdj5cbiAgKTtcbn1cblxuZnVuY3Rpb24gQ29udGFkb3IoKXtcbiAgY29uc3QgW2NvbnRhZG9yLCBzZXRDb250YWRvcl0gPSB1c2VTdGF0ZSgxKTtcblxuICBmdW5jdGlvbiBhZGljaW9uYXJDb250YWRvcigpe1xuICAgIHNldENvbnRhZG9yKGNvbnRhZG9yICsgMSk7XG4gIH1cblxuICByZXR1cm4gKFxuICAgIDxkaXY+XG4gICAgICA8ZGl2PnsgY29udGFkb3IgfTwvZGl2PlxuICAgICAgPGJ1dHRvbiBvbkNsaWNrPXthZGljaW9uYXJDb250YWRvcn0+QWRpY2lvbmFyPC9idXR0b24+XG4gICAgPC9kaXY+XG4gICk7XG59XG5cbmV4cG9ydCBkZWZhdWx0IEhvbWU7Il0sInNvdXJjZVJvb3QiOiIifQ==
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9fTl9FLy4vcGFnZXMvaW5kZXguanMiXSwibmFtZXMiOlsiSG9tZSJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQTs7QUFFQSxTQUFTQSxJQUFULEdBQWU7QUFDYixzQkFDRTtBQUFBLDRCQUNFO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLFlBREYsZUFFRSxxRUFBQyxnREFBRDtBQUFNLFVBQUksRUFBQyxRQUFYO0FBQUEsNkJBQ0U7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFERjtBQUFBO0FBQUE7QUFBQTtBQUFBLFlBRkY7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLFVBREY7QUFRRDs7S0FUUUEsSTtBQVdNQSxtRUFBZiIsImZpbGUiOiJzdGF0aWMvd2VicGFjay9wYWdlcy9pbmRleC40Mjg1ODRiY2E2ZDc3ZTk0NzhjNS5ob3QtdXBkYXRlLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJztcblxuZnVuY3Rpb24gSG9tZSgpe1xuICByZXR1cm4gKFxuICAgIDxkaXY+XG4gICAgICA8aDE+SG9tZTwvaDE+XG4gICAgICA8TGluayBocmVmPVwiL3NvYnJlXCI+XG4gICAgICAgIDxhPkFjZXNzYXIgYSBww6FnaW5hIFNvYnJlPC9hPlxuICAgICAgPC9MaW5rPlxuICAgIDwvZGl2PlxuICApO1xufVxuXG5leHBvcnQgZGVmYXVsdCBIb21lOyJdLCJzb3VyY2VSb290IjoiIn0=
